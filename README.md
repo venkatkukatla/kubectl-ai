@@ -1,4 +1,3 @@
-# kubectl-ai
 
 # EKS + kubectl-ai Setup (AWS) — Step-by-step README
 
