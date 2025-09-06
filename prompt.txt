@@ -1,0 +1,62 @@
+✅ General Rules for Good Prompts
+
+Be explicit about the resource (pods, deployments, nodes, services).
+
+Specify the namespace if not default.
+
+Mention the format (table, wide, JSON, YAML).
+
+Ask for filtering (by labels, status, etc.).
+
+Use action words (get, describe, scale, delete, create).
+
+Combine context and command (“show pods in namespace dev sorted by age”).
+
+✅ Top 15 Practical Prompts for kubectl ai
+Pod Management
+
+show all pods in the default namespace
+
+list pods in namespace prod with status running
+
+display pods in JSON format
+
+get pods sorted by restart count
+
+describe the pod named nginx-pod
+
+Deployment & Scaling
+
+scale deployment nginx-deployment to 5 replicas
+
+show all deployments in namespace staging
+
+rollout restart the deployment web-app
+
+check rollout status of deployment api-server
+
+create a deployment named myapp with image nginx
+
+Services & Networking
+
+show all services in the cluster
+
+describe the service named my-service
+
+get external IP of service frontend-service
+
+Cluster & Nodes
+
+display all nodes with their status and resources
+
+show cluster info in detailed format
+
+✅ Advanced Prompts
+
+check why my pods in namespace dev are in CrashLoopBackOff
+
+generate YAML for a new pod running alpine image with sleep command
+
+delete all pods with label app=backend in namespace test
+
+get logs from pod nginx-123 in namespace dev
