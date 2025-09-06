@@ -1,48 +1,17 @@
-✅ Top 15 Practical Prompts for kubectl ai
-Pod Management
+Create two YAML files and save them in the current directory /mnt/c/Users/venka/k8s/prompt:
 
-show all pods in the default namespace
+1. Save as /mnt/c/Users/venka/k8s/prompt/deployment.yml
+   - Deployment with 4 replicas
+   - Image: nginx:latest
+   - Container name: nginx
+   - Label: app=nginx
 
-list pods in namespace prod with status running
+2. Save as /mnt/c/Users/venka/k8s/prompt/service.yml
+   - Service of type LoadBalancer
+   - Selector: app=nginx
+   - Expose port 80
 
-display pods in JSON format
+After saving, run:
+ls -l /mnt/c/Users/venka/k8s/prompt
 
-get pods sorted by restart count
-
-describe the pod named nginx-pod
-
-Deployment & Scaling
-
-scale deployment nginx-deployment to 5 replicas
-
-show all deployments in namespace staging
-
-rollout restart the deployment web-app
-
-check rollout status of deployment api-server
-
-create a deployment named myapp with image nginx
-
-Services & Networking
-
-show all services in the cluster
-
-describe the service named my-service
-
-get external IP of service frontend-service
-
-Cluster & Nodes
-
-display all nodes with their status and resources
-
-show cluster info in detailed format
-
-✅ Advanced Prompts
-
-check why my pods in namespace dev are in CrashLoopBackOff
-
-generate YAML for a new pod running alpine image with sleep command
-
-delete all pods with label app=backend in namespace test
-
-get logs from pod nginx-123 in namespace dev
+After creating the files, deploy them into the current EKS cluster.
