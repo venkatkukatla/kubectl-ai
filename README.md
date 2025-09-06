@@ -1,5 +1,5 @@
 
-# EKS + kubectl-ai Setup (AWS) — Step-by-step README
+# EKS + kubectl-ai Setup — Step-by-step
 
 > This README documents a repeatable, step-by-step process to install the AWS CLI, kubectl, eksctl, install krew (and the `ai` plugin), create an EKS cluster, and deploy a sample NGINX app behind an NLB. It also shows how to configure `kubectl ai` (GEMINI/OPENAI) and common troubleshooting steps.
 
