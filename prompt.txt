@@ -1,17 +1,3 @@
-✅ General Rules for Good Prompts
-
-Be explicit about the resource (pods, deployments, nodes, services).
-
-Specify the namespace if not default.
-
-Mention the format (table, wide, JSON, YAML).
-
-Ask for filtering (by labels, status, etc.).
-
-Use action words (get, describe, scale, delete, create).
-
-Combine context and command (“show pods in namespace dev sorted by age”).
-
 ✅ Top 15 Practical Prompts for kubectl ai
 Pod Management
 
